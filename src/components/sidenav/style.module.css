@@ -1,0 +1,51 @@
+#CampaignSideNav{
+    width: inherit;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    /* margin: 80px 30px 0px 30px; */
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: #0d2b22;
+}
+
+#navs{
+    margin: 70px 0px 0px 0px;
+    padding: 0;
+    width: 100%;
+    /* background: #f7f7f7; */
+    display: flex;
+    flex-direction: column;
+    max-height: inherit;
+}
+
+#navLink{
+    width: 100%;
+   font-weight: 700; 
+   margin: 10px 0px;
+   border-bottom: 2px solid #f7fff7;
+
+   border-radius: 10px;
+   /* background-color: #f7f7f7; */
+   color: #f7fff7;
+   /* color: #087990; */
+   text-transform: uppercase;
+   /* padding: 10px; */
+   text-align: center;
+   /* height: fit-content; */
+   transition: background-color 2s;
+}
+
+#navLink:hover{
+    background-color: #f7fff7;
+    color: #0d2b22;
+    
+}
+
+#navLink:active{
+    background-color: #f7fff7;
+}

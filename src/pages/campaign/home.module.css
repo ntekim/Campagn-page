@@ -1,0 +1,36 @@
+#CampaignPage{
+    /* padding: 40px 10px; */
+    background: #f7f7f7;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+
+#CampaignPage::-webkit-scrollbar{
+    display: none;
+}
+
+.sidenav{
+    width: 20% !important;
+    /* margin-right: 30px; */
+    border-right: 3px solid #ffffff;
+    /* overflow-y: hidden; */
+    /* align-items: center; */
+}
+
+.mainContent{
+    width: 70%;
+    /* display: flex; */
+    justify-items: center;
+    margin: 0px 50px;
+    overflow-y: visible;
+}
+
+.mainContent::-webkit-scrollbar {
+    width: 0 !important;
+  }

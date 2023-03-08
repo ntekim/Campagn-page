@@ -1,0 +1,16 @@
+#HeaderCard{
+    margin-top: 30px;
+    border: 5px solid #f7f7f7;
+    border-top: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 20px;
+    /* heigth */
+}
+
+#HeaderCardBody{
+    padding: 0 0 0 10px;
+    /* font-size: 18px; */
+    /* font-weight: 500; */
+}
